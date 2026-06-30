@@ -19,21 +19,19 @@ body {
   margin: 0 auto;
   /* padding: 0 10px; */
 
-  display: flex; 
+  display: flex;
   justify-content: space-between;
   align-items: center;
   height: 60px;
-
- 
 }
-.logo{
-    img{
-        margin-left: 70px;
-      }
+.logo {
+  img {
+    margin-left: 70px;
+  }
 }
 
-.contact-list{
-    margin-right: 80px;
+.contact-list {
+  margin-right: 80px;
 }
 
 .lists {
@@ -47,15 +45,80 @@ body {
     cursor: pointer;
   }
 
-  .book-a-call{
+  .book-a-call {
     width: 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 
-    img{
-        width: 13px;
-        height: 13px;
+    img {
+      width: 13px;
+      height: 13px;
     }
   }
+}
+
+.main {
+  width: 100%;
+  border: 1px solid red;
+}
+
+.main-container {
+  width: 100%;
+  max-width: 1300px;
+  border: 1px solid blue;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-evenly;
+  /* padding-top: 20px; */
+  height: 90%;
+
+  .first-main {
+    display: grid;
+    border: 1px solid pink;
+    width: 712px;
+  }
+}
+.text {
+  h1 {
+    font-size: 72px;
+    margin-bottom: 27px;
+
+    span {
+      color: #ff8a56;
+    }
+  }
+
+  /* font-weight: 700; */
+}
+
+.text {
+  p {
+    font-size: 22px;
+    font-weight: 400;
+    color: #666666;
+  }
+}
+
+.download-cv {
+  background-color: white;
+  color: black;
+}
+
+.btn-con {
+  button {
+    width: 151px;
+    height: 58px;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: black;
+    color: white;
+  }
+}
+
+.second-main{
+    width: 500px;
+    height: 595px;
+    border: 1px solid orange;
 }
