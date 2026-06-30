@@ -1,0 +1,61 @@
+html,
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+  border: 1px solid red;
+  width: 100%;
+  /* display: flex; */
+  /* justify-content: center; */
+}
+
+.nav-container {
+  width: 100%;
+  max-width: 1300px;
+  border: 1px solid yellow;
+  display: flex;
+  margin: 0 auto;
+  /* padding: 0 10px; */
+
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+
+ 
+}
+.logo{
+    img{
+        margin-left: 70px;
+      }
+}
+
+.contact-list{
+    margin-right: 80px;
+}
+
+.lists {
+  display: flex;
+  /* justify-content: space-evenly; */
+  text-decoration: none;
+  list-style: none;
+  /* border: 1px solid red; */
+  li {
+    margin-right: 40px;
+    cursor: pointer;
+  }
+
+  .book-a-call{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    img{
+        width: 13px;
+        height: 13px;
+    }
+  }
+}
