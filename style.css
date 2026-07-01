@@ -117,8 +117,176 @@ body {
   }
 }
 
-.second-main{
-    width: 500px;
-    height: 595px;
-    border: 1px solid orange;
+.second-main {
+  width: 500px;
+  height: 595px;
+  border: 1px solid orange;
+}
+
+.sponsors {
+  width: 100%;
+  border: 1px solid red;
+}
+
+.sponsors-container {
+  width: 100em;
+  max-width: 1300px;
+  border: 1px solid green;
+  margin: 0 auto;
+}
+
+.h1-text {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 45px;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-evenly;
+  img {
+    width: 141px;
+    height: 25px;
+  }
+}
+
+.services {
+  margin-top: 76px;
+  width: 100%;
+  border: 1px solid red;
+}
+
+.services-container {
+  width: 100%;
+  max-width: 1300px;
+  border: 1px solid green;
+  margin: 0 auto;
+}
+
+.service-text {
+  text-align: center;
+  font-size: 54px;
+  margin: 0 auto;
+  font-weight: bold;
+  font-weight: 700;
+}
+
+.service-span {
+  font-size: 22px;
+  /* display: flex; */
+  text-align: center;
+  text-transform: uppercase;
+  color: #ff5e69;
+  font-weight: bold;
+  font-weight: 700;
+  text-align: center;
+}
+
+.service-skills {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 16px;
+  line-height: 28px;
+
+  img {
+    width: 70px;
+    height: 70px;
+  }
+}
+.bold {
+  font-weight: bold;
+}
+
+.grayish {
+  color: #666666;
+}
+
+.skill {
+  width: 306px;
+  height: 381px;
+  border: 1px solid red;
+}
+
+.what {
+  font-size: 24px;
+}
+
+.projects {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  align-items: center;
+  span {
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #b16cea;
+  }
+
+  p {
+    font-size: 54px;
+    margin: 16px 0 0 0;
+    /* margin-top: 16px; */
+    font-weight: bold;
+    line-height: 59.4px;
+    letter-spacing: 1px;
+  }
+
+  button {
+    width: 201px;
+    height: 58px;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: black;
+    color: white;
+  }
+}
+
+.footer {
+  width: 100%;
+  border: 1px solid red;
+  background-color: black;
+}
+
+.footer-container {
+  width: 100%;
+  max-width: 1300px;
+  border: 1px solid red;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.ready {
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 59.4px;
+  letter-spacing: 1px;
+  margin: 175px 0 80px 0;
+
+  p:first-child {
+    color: white;
+    margin: 0;
+  }
+  p {
+    color: #3c46ff;
+    margin: 0;
+  }
+}
+
+.contact-footer{
+  color: #5C5C5C;
+  line-height: 36px;
+  font-size: 17px;
+  font-style: regular;
+  img{
+    /* margin-bottom: 14px; */
+  };
+  p{
+  margin: 0;
+
+  }
 }
